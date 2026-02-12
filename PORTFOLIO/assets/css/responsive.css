@@ -1,0 +1,68 @@
+@media screen and (max-width:767px) {
+    .topbar {
+        padding:14px 20px;
+        font-size:12px;
+    }
+    .hero-content h1 {
+    font-size: 25px;
+    }
+    .hero-content p{
+    font-size: 11px;
+    }
+    .about-me{
+    padding:14px 20px;
+    }
+    .about p{
+    text-align: center;
+    width:100%;
+    max-width: 700px;
+    padding:10px;
+    }
+    .skill ul{
+    display:grid;
+    grid-template-columns: 1fr;
+    row-gap: 5px;
+    }
+    .pjt {
+    display:grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+.pjt-card{
+    width:auto;
+    background-color: whitesmoke;
+    }
+.pjt :hover{
+    padding:5px;
+}
+.footer{
+    padding:14px 20px;
+}
+.in-touch{
+    display: inline;
+}
+.copyright{
+    font-size:12px;
+}
+
+}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+    .topbar, footer, .skills,.project, .about-me{
+        padding:14px 20px;
+    }
+    .skill ul{
+    display:grid;
+    grid-template-columns: 1fr;
+    row-gap: 5px;
+    }
+    .skill ul li{
+        margin:auto;
+    }
+     .pjt {
+    display:grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    }
+
+}
